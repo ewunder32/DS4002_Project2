@@ -1,4 +1,4 @@
-# DS4002 Project 2 - Predicting Palantir Stocks based on price history and keywords in the world news
+# DS4002 Project 2 - Predicting Palantir stock prices based on price history and keywords in the world news
 Add Summary
 
 ## Goal 
@@ -44,3 +44,11 @@ Project2
 ```
 
 ## Section 3: Instructions for reproducing your results
+
+Follow these steps to reproduce the analysis from scratch.
+
+### Step 1:
+
+### Step 2:
+
+### Step 3:
