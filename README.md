@@ -6,7 +6,6 @@ Add Summary
 
 ## Contents of Repository 
 
-## Section 1: Software and Platform Section
 - **DATA**
   - `Appendix.pdf`: Contains dataset descriptions, variable dictionaries, and descriptive statistics.
   - `README.md`: Instructions for downloading and preparing the raw datasets.
