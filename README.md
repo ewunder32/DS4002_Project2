@@ -5,6 +5,8 @@ Add Summary
 
 
 ## Contents of Repository 
+
+## Section 1: Software and Platform Section
 - **DATA**
   - `Appendix.pdf`: Contains dataset descriptions, variable dictionaries, and descriptive statistics.
   - `README.md`: Instructions for downloading and preparing the raw datasets.
@@ -28,8 +30,18 @@ Add Summary
 **Platform Used**
 - Windows 24H2
 
-## Section 1: Software and Platform Section
-
 ## Section 2: Map of Documentation
+```
+Project2
+├── DATA
+│   ├── Appendix.pdf            # Data dictionary and descriptive statistics
+│   └── README.md               # How to obtain the raw datasets
+├── OUTPUT
+│   └── OUTPUT_Project2.pdf     # Final report with results
+├── SCRIPTS
+│   └── project12ipynb          # Full dataset creation + analysis pipeline
+├── LICENSE.md                  # MIT License for repository code
+└── README.md                   # Main orientation file (this document)
+```
 
 ## Section 3: Instructions for reproducing your results
