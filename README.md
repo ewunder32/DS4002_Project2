@@ -1,11 +1,7 @@
 # DS4002 Project 2 - Predicting Palantir stock prices based on price history and keywords in the world news
-Add Summary
-
-## Goal 
-
+This repository contains all code, documentation, and outputs for DS4002 Project 2. The project merges Palantir stock prices from when they went public (9/30/2020) till today and the occurrence of war- and AI- and AI-related keywords in the news from the GDELT project in order to predict future stock prices.  
 
 ## Contents of Repository 
-
 - **DATA**
   - `Appendix.pdf`: Contains dataset descriptions, variable dictionaries, and descriptive statistics.
   - `README.md`: Instructions for downloading and preparing the raw datasets.
@@ -17,15 +13,13 @@ Add Summary
 - **README.md**: (this file) Orientation, environment requirements, and reproduction instructions.
 
 ## Section 1: Software and Platform
-
 **Software Used**
 - Python 3.10+  
 - Google Colab  
-
 **Required Packages**
 - `pandas`  
 - `numpy`
-
+- ADD REST OF PACKAGES USED!!!!
 **Platform Used**
 - Windows 24H2
 
@@ -44,8 +38,7 @@ Project2
 ```
 
 ## Section 3: Instructions for reproducing your results
-
-Follow these steps to reproduce the analysis from scratch.
+Follow these steps to reproduce the analysis 
 
 ### Step 1:
 
