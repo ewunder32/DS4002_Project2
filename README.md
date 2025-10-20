@@ -1,1 +1,1 @@
-# DS4002_Project2
+# DS4002 Project 2 - Predicting Palantir Stocks based on price history and keywords in the world newss
