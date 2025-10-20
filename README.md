@@ -21,7 +21,7 @@ This repository contains all code, documentation, and outputs for DS4002 Project
 - `numpy`
 - ADD REST OF PACKAGES USED!!!!
 **Platform Used**
-- Windows 24H2
+- Windows 11 25H2
 
 ## Section 2: Map of Documentation
 ```
