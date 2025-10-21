@@ -45,26 +45,26 @@ Project2
 Follow these steps to reproduce the analysis 
 
 ### Step 1: Prepare Data
-Download PLTR OHLCV CSV from Macrotrends
-Export GDELT GKG daily data from BigQuery 
+- Download PLTR OHLCV CSV from Macrotrends
+- Export GDELT GKG daily data from BigQuery 
 
 ### Step 2: Merge and Clean
-Clean and merge PLTR + GDLET data
-Forward-fill weekends/holidays
-Add daily and log returns 
+- Clean and merge PLTR + GDLET data
+- Forward-fill weekends/holidays
+- Add daily and log returns 
 
 ### Step 3: Visualizations (optional)
-Validate columns and missing data
-Generate basic plots and summaries
+- Validate columns and missing data
+- Generate basic plots and summaries
 
 ### Step 4: Train Hybrid Model
-Engineer/lag/EWM/z-score features
-Train walk-forward ARIMAX + LSTM hybrid (H=5)
-Compute metrics and backtest 
+- Engineer/lag/EWM/z-score features
+- Train walk-forward ARIMAX + LSTM hybrid (H=5)
+- Compute metrics and backtest 
 
 ### Step 5: Drift + Signal Variant
-Train models on de-meaned returns
-ADd drfit back, compare vs baseline
+- Train models on de-meaned returns
+- Add drift back, compare vs baseline
 
 ### Step 6: Risk Metrics (Backtest) 
-Run backettest to compare annulaized return, vol, Sharpe, Sortino, drawdown, and Calmar 
+- Run backetest to compare annulaized return, vol, Sharpe, Sortino, drawdown, and Calmar 
