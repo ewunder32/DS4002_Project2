@@ -3,10 +3,9 @@ This repository contains all code, documentation, and outputs for DS4002 Project
 
 ## Contents of Repository 
 - **DATA**
-  - `Appendix.pdf`: Contains dataset descriptions, variable dictionaries, and descriptive statistics.
-  - `README.md`: Instructions for downloading and preparing the raw datasets.
+  - `Appendix.pdf`: Contains dataset descriptions, variable dictionaries, and descriptive statistics
 - **SCRIPTS**
-  - `project2.ipynb`: Colab notebook with the full dataset creation and analysis pipeline.
+  - `Project2.ipynb`: Colab notebook with the full dataset creation and analysis pipeline.
 - **OUTPUT**
   - `OUTPUT_Project2.pdf`: Final report including figures, tables, and summary of findings.
 - **LICENSE.md**: MIT License for code and documentation in this repository.
@@ -19,7 +18,13 @@ This repository contains all code, documentation, and outputs for DS4002 Project
 **Required Packages**
 - `pandas`  
 - `numpy`
-- ADD REST OF PACKAGES USED!!!!
+- 'pathlib'
+- 'matplotlib.pyplot'
+- 'sklearn.preprocessing'
+- 'sklearn'
+- 'statsmodels'
+- 'tensorflow'
+  
 **Platform Used**
 - Windows 11 25H2
 
@@ -28,7 +33,6 @@ This repository contains all code, documentation, and outputs for DS4002 Project
 Project2
 ├── DATA
 │   ├── Appendix.pdf            # Data dictionary and descriptive statistics
-│   └── README.md               # How to obtain the raw datasets
 ├── OUTPUT
 │   └── OUTPUT_Project2.pdf     # Final report with results
 ├── SCRIPTS
@@ -40,8 +44,27 @@ Project2
 ## Section 3: Instructions for reproducing your results
 Follow these steps to reproduce the analysis 
 
-### Step 1:
+### Step 1: Prepare Data
+Download PLTR OHLCV CSV from Macrotrends
+Export GDELT GKG daily data from BigQuery 
 
-### Step 2:
+### Step 2: Merge and Clean
+Clean and merge PLTR + GDLET data
+Forward-fill weekends/holidays
+Add daily and log returns 
 
-### Step 3:
+### Step 3: Visualizations (optional)
+Validate columns and missing data
+Generate basic plots and summaries
+
+### Step 4: Train Hybrid Model
+Engineer/lag/EWM/z-score features
+Train walk-forward ARIMAX + LSTM hybrid (H=5)
+Compute metrics and backtest 
+
+### Step 5: Drift + Signal Variant
+Train models on de-meaned returns
+ADd drfit back, compare vs baseline
+
+### Step 6: Risk Metrics (Backtest) 
+Run backettest to compare annulaized return, vol, Sharpe, Sortino, drawdown, and Calmar 
