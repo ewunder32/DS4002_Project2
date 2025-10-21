@@ -14,7 +14,8 @@ This repository contains all code, documentation, and outputs for DS4002 Project
 ## Section 1: Software and Platform
 **Software Used**
 - Python 3.10+  
-- Google Colab  
+- Google Colab
+
 **Required Packages**
 - `pandas`  
 - `numpy`
