@@ -47,7 +47,7 @@ Follow these steps to reproduce the analysis
 
 ### Step 1: Prepare Data
 - Download PLTR OHLCV CSV from Macrotrends
-- Export GDELT GKG daily data from BigQuery 
+- Export GDELT GKG daily data from BigQuery
 
 ### Step 2: Merge and Clean
 - Clean and merge PLTR + GDLET data
