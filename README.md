@@ -19,13 +19,11 @@ This repository contains all code, documentation, and outputs for DS4002 Project
 **Required Packages**
 - `pandas`  
 - `numpy`
-- 'pathlib'
-- 'matplotlib.pyplot'
-- 'sklearn.preprocessing'
-- 'sklearn'
+- 'matplotlib'
+- 'scikit-learn'
 - 'statsmodels'
-- 'tensorflow'
-  
+- 'tensorflow (Keras)'
+
 **Platform Used**
 - Windows 11 25H2 (local), Colab for execution
 
