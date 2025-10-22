@@ -37,7 +37,7 @@ Project2
 ├── OUTPUT
 │   └── Project 2 Output.pdf     # Final report with results
 ├── SCRIPTS
-│   └── project12ipynb          # Full dataset creation + analysis pipeline
+│   └── project2.ipynb          # Full dataset creation + analysis pipeline
 ├── LICENSE.md                  # MIT License for repository code
 └── README.md                   # Main orientation file (this document)
 ```
