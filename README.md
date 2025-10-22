@@ -7,7 +7,7 @@ This repository contains all code, documentation, and outputs for DS4002 Project
 - **SCRIPTS**
   - `Project2.ipynb`: Colab notebook with the full dataset creation and analysis pipeline.
 - **OUTPUT**
-  - `OUTPUT_Project2.pdf`: Final report including figures, tables, and summary of findings.
+  - `Project 2 Output.pdf`: Final report including figures, tables, and summary of findings.
 - **LICENSE.md**: MIT License for code and documentation in this repository.
 - **README.md**: (this file) Orientation, environment requirements, and reproduction instructions.
 
@@ -35,7 +35,7 @@ Project2
 ├── DATA
 │   ├── Appendix.pdf            # Data dictionary and descriptive statistics
 ├── OUTPUT
-│   └── OUTPUT_Project2.pdf     # Final report with results
+│   └── Project 2 Output.pdf     # Final report with results
 ├── SCRIPTS
 │   └── project12ipynb          # Full dataset creation + analysis pipeline
 ├── LICENSE.md                  # MIT License for repository code
