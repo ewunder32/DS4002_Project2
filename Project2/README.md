@@ -1,15 +1,22 @@
 # DS4002 Project 2 - Predicting Palantir stock prices based on price history and keywords in the world news
 This repository contains all code, documentation, and outputs for DS4002 Project 2. We merge Palantir (PLTR) daily prices (9/30/2020–present) with GDELT GKG counts/tone of **AI- and war-related** keywords to forecast **5-day returns**. Models include ARIMAX and a Hybrid (ARIMAX + LSTM residuals), compared to a drift baseline and evaluated with a debiased long/flat backtest.
 
-## Contents of Repository 
+## Contents of Repository
+
 - **DATA**
-  - `Appendix.pdf`: Contains dataset descriptions, variable dictionaries, and descriptive statistics
+  - `Appendix.pdf`: Contains dataset descriptions, variable dictionaries, and descriptive statistics.
+  - `README.md`: How to obtain the raw datasets.
+  - `pltr_with_gkg_daily.csv`: PTR + GKG merged daily features used in analysis.
+
 - **SCRIPTS**
   - `Project2.ipynb`: Colab notebook with the full dataset creation and analysis pipeline.
+
 - **OUTPUT**
   - `Project 2 Output.pdf`: Final report including figures, tables, and summary of findings.
+
 - **LICENSE.md**: MIT License for code and documentation in this repository.
 - **README.md**: (this file) Orientation, environment requirements, and reproduction instructions.
+
 
 ## Section 1: Software and Platform
 **Software Used**
@@ -31,13 +38,15 @@ This repository contains all code, documentation, and outputs for DS4002 Project
 ```
 Project2
 ├── DATA
-│   ├── Appendix.pdf            # Data dictionary and descriptive statistics
+│   ├── Appendix.pdf              # Data dictionary and descriptive statistics
+│   ├── README.md                 # How to obtain the raw datasets
+│   └── pltr_with_gkg_daily.csv   # PTR + GKG merged CSV used in analysis (raw data)
 ├── OUTPUT
-│   └── Project 2 Output.pdf     # Final report with results
+│   └── Project 2 Output.pdf      # Final report with results
 ├── SCRIPTS
-│   └── project2.ipynb          # Full dataset creation + analysis pipeline
-├── LICENSE.md                  # MIT License for repository code
-└── README.md                   # Main orientation file (this document)
+│   └── project2.ipynb            # Full dataset creation + analysis pipeline
+├── LICENSE.md                    # MIT License for repository code
+└── README.md                     # Main orientation file (this document)
 ```
 
 ## Section 3: Instructions for reproducing your results
