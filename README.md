@@ -1,5 +1,5 @@
 # DS4002 Project 2 - Predicting Palantir stock prices based on price history and keywords in the world news
-This repository contains all code, documentation, and outputs for DS4002 Project 2. The project merges Palantir stock prices from when they went public (9/30/2020) till today and the daily occurrence of war- and AI- and AI-related keywords in the news from the GDELT project in order to predict future stock prices.  
+This repository contains all code, documentation, and outputs for DS4002 Project 2. We merge Palantir (PLTR) daily prices (9/30/2020–present) with GDELT GKG counts/tone of **AI- and war-related** keywords to forecast **5-day returns**. Models include ARIMAX and a Hybrid (ARIMAX + LSTM residuals), compared to a drift baseline and evaluated with a debiased long/flat backtest.
 
 ## Contents of Repository 
 - **DATA**
