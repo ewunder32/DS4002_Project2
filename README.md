@@ -27,7 +27,7 @@ This repository contains all code, documentation, and outputs for DS4002 Project
 - 'tensorflow'
   
 **Platform Used**
-- Windows 11 25H2
+- Windows 11 25H2 (local), Colab for execution
 
 ## Section 2: Map of Documentation
 ```
@@ -59,13 +59,15 @@ Follow these steps to reproduce the analysis
 - Generate basic plots and summaries
 
 ### Step 4: Train Hybrid Model
-- Engineer/lag/EWM/z-score features
-- Train walk-forward ARIMAX + LSTM hybrid (H=5)
-- Compute metrics and backtest 
+- Feature engineering: lags, EWMA, surprises, rolling z-scores.
+- Walk-forward **H=5** (5 folds), **seed=42**.
+- Train **ARIMAX + LSTM residuals**; compute metrics and DM tests.
+- Save predictions/metrics to `OUTPUT/`.
 
 ### Step 5: Drift + Signal Variant
-- Train models on de-meaned returns
-- Add drift back, compare vs baseline
+- Train on **demeaned (drift-removed)** returns; add drift back to predictions.
+- Compare against Train-Mean baseline and ARIMAX.
 
 ### Step 6: Risk Metrics (Backtest) 
-- Run backetest to compare annulaized return, vol, Sharpe, Sortino, drawdown, and Calmar 
+- Debiased **H-tranche long/flat** backtest with **5 bps** per switch.
+- Report **annualized return, volatility, Sharpe, Sortino, max drawdown, Calmar**; compare to Buy-and-Hold.
